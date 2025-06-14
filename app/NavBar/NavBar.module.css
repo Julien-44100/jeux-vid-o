@@ -1,0 +1,35 @@
+/* NavBar.module.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D33FFF;
+  z-index: 100; 
+}
+
+.logo {
+	
+	width: 60px;
+	border-radius: 15px;
+	
+}
+
+
+@media screen and (max-width: 450px) {
+  
+ .navbar {
+	width: 30em;
+}
+
+.logo {
+	margin-right: 70px;
+	width: 60px;
+	border-radius: 15px;
+	
+}
+}
